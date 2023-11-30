@@ -27,4 +27,6 @@ jobs:
     - name: Build
       run: dotnet pack -c Release
     - name: Publish Nuget Package
-      run: dotnet nuget push DeckOfCards/bin/Release/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}  --source "github"    
+      run: dotnet nuget push DeckOfCards/bin/Release/*.nupkg --api-key "$TOKEN"  --source "github"
+      env:
+        TOKEN: '${{ secrets.GITHUB_TOKEN }}'
