@@ -1,4 +1,4 @@
-namespace DeckOfCards.Test;
+namespace nic_weber.DeckOfCards.Test;
 
 public class StandardPokerDeckTest
 {

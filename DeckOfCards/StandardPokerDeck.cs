@@ -1,8 +1,6 @@
-using System;
 using System.Collections;
 
-namespace DeckOfCards;
-
+namespace nic_weber.DeckOfCards;
 
 public enum StartingStates {
     Empty,

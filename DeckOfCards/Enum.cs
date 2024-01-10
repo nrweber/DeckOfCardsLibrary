@@ -1,4 +1,4 @@
-namespace DeckOfCards;
+namespace nic_weber.DeckOfCards;
 
 public enum Suits
 {
