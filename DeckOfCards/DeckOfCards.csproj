@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>nic_weber.DeckOfCards</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.1.0</Version>
         <Author>Nic Weber</Author>
         <Product>Deck Of Cards</Product>
         <Description>Simple deck of cards</Description>
